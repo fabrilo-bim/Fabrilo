@@ -25,7 +25,7 @@ express = { path = "crates/express" }
 geom = { path = "crates/geom" }
 georef = { path = "crates/georef" }
 host-desktop = { path = "crates/host-desktop" }
-js-sys = "=0.3.106"
+js-sys = "=0.3.107"
 # Without the default features, which fetch remote and file `$ref`s over HTTP and TLS.
 jsonschema = { version = "=0.60.2", default-features = false }
 libm = "=0.2.16"
@@ -66,9 +66,9 @@ thiserror = "=2.0.21"
 toml = "=1.1.8"
 # The browser glue of the viewport (VP-01): wasm32 only, at the versions wgpu's WebGPU backend
 # already locks, so no second copy is built.
-wasm-bindgen = "=0.2.129"
-wasm-bindgen-futures = "=0.4.79"
-web-sys = { version = "=0.3.106", features = [
+wasm-bindgen = "=0.2.130"
+wasm-bindgen-futures = "=0.4.80"
+web-sys = { version = "=0.3.107", features = [
   "AddEventListenerOptions",
   "DomRect",
   "Element",
